@@ -86,7 +86,6 @@ select[name="Eng"] {
     color: rgb(0, 0, 0);
     margin-left: 65px;
 }
-
 .container {
     display: flex;
     justify-content: space-around;
@@ -125,25 +124,43 @@ select[name="Eng"] {
   /* container Japan Tour1 */
 
   .tour1{
+    font-family: Roboto, Arial, sans-serif;
     width: 490px;
     height: 500px;
     border-radius: 15px;
     padding: 10px 10px 10px 10px;
   }
   .tour1 h1{
-    font-size: 30px;
+    font-size: 40px;
   }
-  
   .tour1 h2{
-    font-size: 20px;
+    font-size: 19px;
+    margin-bottom: 18px;
+    margin-top: 12px;
   }
-
+  .tour1 p{
+    font-size: 13px;
+    line-height: 0.7;
+    margin-bottom: 11px;
+    color: #bab8be;
+  }
   .title h1{
     padding: 50px 50px 0px 80px ;
+    margin-bottom: 15px;
+    font-weight:900;
+    font-size: 23px;
   }
-
+  .detailsparagraph{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 11px;
+  }
   .container2 {
     padding: 0px 50px 0px 80px ;
+    line-height: 2;
+  }
+  .container2 p{
+    font-size: 15px;
   }
   .details img{
     height: 15px;
@@ -169,6 +186,9 @@ select[name="Eng"] {
 
 .happy h1{
   padding: 50px 50px 20px 12rem;
+  margin-bottom: 15px;
+  font-weight:900;
+  font-size: 23px;
 }
 
 .container3 {
@@ -212,4 +232,15 @@ select[name="Eng"] {
 .customer a{
   color: rgb(6, 135, 255);
   padding: 10px;
+}
+.highlightblue{
+  color:#00B3FF
+}
+.price {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+}
+.bold{
+  font-weight: bold;
 }
