@@ -187,9 +187,54 @@ input[type="time"] {
   border: 1px solid #ccc;
   width: 500px;
 }
-/* Tickets*/
-.tickets {
-  background-color: #0044ff;
-  height: 600px;
-  width: 500px;
+.title li{
+  background-color: rgb(220, 220, 220);
+  height: 20px;
+  width: 450px;
+  margin-left: 2rem;
+  padding: 2rem 0 2rem 0;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    margin-left: 20px;
+}
+
+.input-description {
+    margin-right: 10px;
+}
+
+.input-description p {
+    margin: 0;
+}
+
+.input-with-controls {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 15%;
+}
+
+.controls button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #ddd;
+}
+
+.controls{
+  margin-left: 28rem;
 }
