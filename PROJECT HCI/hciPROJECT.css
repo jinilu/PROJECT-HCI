@@ -1,0 +1,301 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior:smooth ;
+  font-family: 'Open Sans', sans-serif;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body{
+ 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+section{
+  min-height: 10vh;
+  padding: 10rem 9% 2rem;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  padding: 2rem 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.253);
+}
+.header img {
+  width: 60px;
+  height: auto;
+}
+.logo{
+  font-weight: 600;
+  cursor: default;
+  margin-right: auto;
+}
+.navbar a{
+  font-size: 1.3rem;
+  color: var(--text-color);
+  margin-right: 3rem;
+  transition: .3s;
+}
+.navbar {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+select[name="Eng"] {
+  font-size: 1.3rem;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+.btn {
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+}
+.signup-button {
+  background-color: #00B3FF;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+/* ITO UNG MGA TITLE AHAHHAHA OTEEEEEEN*/
+
+.title h1{
+  margin-left: 12rem;
+}
+
+/*  PACKAGE TOUR CONTAINER 1*/
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 50px 50px 50px;
+}
+.highlightblue {
+  color: #00B3FF;
+}
+.tour{
+  width: 230px;
+  margin: 10px;
+  border-radius: 15px;
+ 
+}
+.tour-image{
+  height: 280px;
+  margin-bottom: 10px;
+  align-items: center;
+  background-size: cover;
+  border-radius: 15px 15px 15px 15px; 
+}
+
+.tour-1{
+  background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
+}
+.tour-2{
+  background-image: url('https://www.indianholiday.com/pictures/tourgallery/712/switzerland-and-paris-tour-7434.jpg')
+}
+.tour-3{
+  background-image: url('https://www.holidify.com/images/bgImages/ROME.jpg')
+}
+.tour-4{
+  background-image: url('https://images.adsttc.com/media/images/5254/4190/e8e4/4eff/0200/06cf/slideshow/sfpassio.jpg?1381253501')
+}
+.tour-5{
+  background-image: url('https://media02.stockfood.com/largepreviews/MjIxNDU3OTM5NQ==/71438045-Golden-Chedi-Phrathatluang-of-the-Buddhist-temple-complex-Wat-Phra-Singh-at-dusk-Chiang-Mai-Thailand-Asia.jpg')
+}
+.tour-6{
+  background-image: url('https://media.ceetiz.com/activity/SEOSEO005/N-seoul-tower-memorial-guerre-coree-ceetiz.jpg')
+}
+.tour-7{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Singapore_Skyline_2019-10.jpg')
+}
+.tour-8{
+  background-image: url('https://www.touropia.com/gfx/b/2019/09/lapland-1.jpg')
+}
+
+.tour h2 {
+  padding: 10px;
+}
+.tour p {
+  padding: 10px;
+}
+.tour a{
+  color: rgb(6, 135, 255);
+  padding: 10px;
+}
+.read-more {
+  color: #00B3FF;
+  cursor: pointer;
+  padding: .1px;
+  background-color: white;
+}
+/* Services CONTAINER2 */
+
+.container2 { 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 50px 50px 50px;
+}
+.services{
+  width: 320px;
+  margin: 10px;
+  border-radius: 15px;
+ 
+}
+
+.service-image{
+  height: 220px;
+  margin-bottom: 10px;
+  background-size: cover;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.service-1{
+  background-image: url('https://media.licdn.com/dms/image/C5612AQEpFavDU_pY-w/article-cover_image-shrink_600_2000/0/1632773082680?e=2147483647&v=beta&t=RW4wLrZZufPNqGDMnPqPg1pOW8Mnb4G1Kxd0mGfuHl0')
+}
+.service-2{
+  background-image: url('https://guidaviaggionline.it/wp-content/uploads/lucca-italia.jpg')
+}
+.service-3{
+  background-image: url('https://www.drinkbien.com/cdn/shop/files/carte-b-1.jpg?v=1695922097&width=750')
+}
+.service-4{
+  background-image: url('https://img.freepik.com/premium-photo/transport-tourism-road-trip-people-concept-group-happy-passengers-boarding-travel-bus_380164-138910.jpg?w=740')
+}
+.service-5{
+  background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSugiB1etjZhv3ySauNSNeBhUeTzvnmNcWJB3g0OkOhdgjBCfHd')
+}
+.service-6{
+  background-image: url('https://cdn.mos.cms.futurecdn.net/kQwELAJZc38Df6ewy7qkSZ-1024-80.jpg.webp')
+}
+
+.services h2 {
+  padding: 10px;
+}
+.services p {
+  padding: 10px;
+}
+.services a{
+  color: rgb(6, 135, 255);
+  padding: 10px;
+}
+
+/* BOOK now SECTION */
+
+.book-image {
+  background-image: url('https://i.ibb.co/BKgm8td/Screenshot-2024-04-25-015643.png');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 400px;
+  padding: 0px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.book-1{
+  background-image: url('https://i.ibb.co/BKgm8td/Screenshot-2024-04-25-015643.png')
+}
+
+/* CUSTOMER SECTION CONTAINER3 */
+
+.happy h1{
+  padding: 50px 50px 20px 12rem;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 80px 50px 50px 50px;
+  padding: 0px 0px 0px 18rem;
+}
+.customer {
+  border: 1px solid #ecf1f1;
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 20px;  
+  
+}
+
+.customer-image{
+  margin-top: 3rem;
+  margin-left: 15rem;
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.customer-1{
+  background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
+}
+.customer-2{
+  background-image: url('https://www.indianholiday.com/pictures/tourgallery/712/switzerland-and-paris-tour-7434.jpg')
+}
+
+.customer h1 {
+  margin-left: 12rem;
+}
+.customer p {
+  padding: 10px;
+}
+.customer a{
+  color: rgb(6, 135, 255);
+  padding: 10px;
+}
+
+/*ICONS*/
+
+.tour img{
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+
+.tour-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.happy img {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px; /* Adjust the margin as needed */
+  float: right; /* Float the images to the right */
+}
+
+.blue-background {
+  border-radius: 100%; 
+  background-color: #00B3FF;
+}
+.gray-background{
+  border-radius: 100%; 
+  background-color: #c9caca;
+}
+
+
