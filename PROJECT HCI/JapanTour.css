@@ -113,13 +113,34 @@ select[name="Eng"] {
     border-radius: 15px 15px 15px 15px;
     display: inline-block;
   }
+  .tour-3{
+    height: 120px;
+    width: 161px;
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+  }
+  .tour-4{
+    height: 120px;
+    width: 161px;
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+  }
   
   .tour-1{
     background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
   }
   .tour-2{
-    background-image: url('https://www.indianholiday.com/pictures/tourgallery/712/switzerland-and-paris-tour-7434.jpg')
+    background-image: url('https://cdn.tourradar.com/s3/cities/520x406/4472_b479ff.jpg')
   }
+  .tour-3{
+    background-image: url('https://cdn.tourradar.com/s3/cities/520x406/4463_6e87f5.jpg')
+  }
+  .tour-4{
+    background-image: url('https://cdn.tourradar.com/s3/cities/520x406/4469_6dee66.jpg')
+  }
+
 
   /* container Japan Tour1 */
 
