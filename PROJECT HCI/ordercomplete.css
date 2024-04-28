@@ -6,36 +6,48 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
   }
   
   .container {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 5px;
     text-align: center;
   }
-  
+  .container img{
+    height: 100px;
+    width: 100px;
+  }
   h1 {
     font-size: 2em;
     margin-bottom: 20px;
     color: #343a40;
+    font-weight: bolder;
   }
   
   p {
-    font-size: 1em;
+    font-size: 19px;
     color: #888;
     margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
-  a {
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
+  /* Inside ordercomplete.css */
+
+button {
+    border: #4cc9ff solid 2px; /* Blue border with thickness */
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #4cc9ff;
+    text-decoration: none; /* Removes underline from button text */
     padding: 10px 20px;
-    border-radius: 5px;
+    cursor: pointer; /* Changes cursor to a pointer on hover */
     transition: all 0.2s ease-in-out;
+    font-weight: 900;
+    font-size: 16px;
   }
+  
   
   a:hover {
     background-color: #0067cc;
