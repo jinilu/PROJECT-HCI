@@ -2,14 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #979494;
+    background-color: #f2f2f2;
 }
 
 .error-container {
     text-align: center;
     margin-top: 100px;
 }
-
 .error-container h1 {
     font-size: 5em;
     margin-bottom: 10px;
