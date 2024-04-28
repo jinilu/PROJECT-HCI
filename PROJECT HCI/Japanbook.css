@@ -243,17 +243,101 @@ input[type="time"] {
     background-color: #ddd;
 }
 
-
-
 /*TIcket*/
 
-.tickets {
-  background-color: #00ff9d;
+.content {
   height: 600px;
   width: 500px;
   margin-bottom: 2px;
+}
+.tickets {
+  display: flex;
+  width: 500px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  height: 500px;
 }
 
 .overview h1{
   padding: 20px  0 20px 10px;
 }
+
+/*Overview*/
+
+.ticketoveriew{
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0px 50px 0px 80px ;
+  background-color: #007bff;
+  width: 500px;
+}
+.ticket-image {
+  background-color: #007bff;
+  height: 120px;
+  width: 161px;
+  background-size: cover;
+  border-radius: 15px 15px 15px 15px;
+  margin-left: 10px;
+  flex-shrink: 0;
+  float:left;
+}
+
+.ticket-1 {
+  background-image: url('https://www.touropia.com/gfx/b/2019/09/lapland-1.jpg')
+}
+
+.information {
+  margin-left: 18rem;
+}
+
+.ticket-details {
+  margin-top: 10rem;
+  margin-left: 10px;
+}
+.priceadult{
+  margin-left: 25rem;
+}
+.adult{
+  margin-top: 120px;
+}
+.pricechild{
+  margin-left: 27.9rem;
+}
+.child{
+  margin-top: 40px;
+}
+.priceinfant {
+  margin-left: 28.2rem;
+}
+.infant{
+  margin-top: 40px;
+}
+.pricetotal {
+  margin-left: 25rem;
+}
+.total {
+  margin-top: 25px;
+  margin-left:10px;
+}
+.next {
+  background-color: #00B3FF;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 1rem;
+  width: 400px;
+  margin-top: 25px;
+}
+
+
