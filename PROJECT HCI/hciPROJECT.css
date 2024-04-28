@@ -157,7 +157,7 @@ select[name="Eng"] {
 .read-more {
   color: #00B3FF;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 0.5px;
   background-color: #ffffff;
 }
 .read-moore {
