@@ -119,7 +119,6 @@ select[name="Eng"] {
   background-size: cover;
   border-radius: 15px 15px 15px 15px; 
 }
-
 .tour-1{
   background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
 }
@@ -144,7 +143,6 @@ select[name="Eng"] {
 .tour-8{
   background-image: url('https://www.touropia.com/gfx/b/2019/09/lapland-1.jpg')
 }
-
 .tour h2 {
   padding: 10px;
 }
@@ -159,14 +157,15 @@ select[name="Eng"] {
   color: #00B3FF;
   cursor: pointer;
   margin-left: 10px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .read-moore {
   color: #00B3FF;
-  cursor: pointer;
-  margin-left: 7px;
-  background-color: white;
+  cursor: pointer;  
+  margin-left: 1px;
+  background-color: #ffffff;
 }
+
 /* Services CONTAINER2 */
 
 .container2 { 
