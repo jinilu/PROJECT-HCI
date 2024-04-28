@@ -161,7 +161,6 @@
 /*Container*/
 
 .container {
-    background-color: #007bff;
     height: 600px;
     display: flex;
     justify-content: space-around;
@@ -175,7 +174,6 @@
 
 /*date*/
 .visit {
-  background-color: #00ff9d;
   height: 600px;
   width: 500px;
   margin-bottom: 2px;
@@ -187,54 +185,75 @@ input[type="time"] {
   border: 1px solid #ccc;
   width: 500px;
 }
-.title li{
+.first{
   background-color: rgb(220, 220, 220);
   height: 20px;
   width: 450px;
   margin-left: 2rem;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 3rem 0;
+}
+.second{
+  background-color: rgb(220, 220, 220);
+  height: 20px;
+  width: 450px;
+  margin-left: 2rem;
+  padding: 0rem 0 4rem 0;
 }
 
-.input-container {
+/* TICKET TYPE*/
+
+.ticket-types {
     display: flex;
-    align-items: center;
-    background-color: #007bff;
-    margin-left: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
-.input-description {
-    margin-right: 10px;
-}
-
-.input-description p {
-    margin: 0;
-}
-
-.input-with-controls {
-    display: flex;
-    align-items: center;
-}
-
-input[type="text"] {
-    padding: 8px;
+.ticket {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 15%;
 }
 
-.controls button {
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f0f0f0;
+.ticket h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.quantity-control {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.quantity-control button {
+    border: #ddd;
+    background-color: #f0efef;
     cursor: pointer;
+    padding: 5px 10px;
 }
 
-.controls button:hover {
+.quantity-control input{
+    width: 25px;
+    height: 25px;
     background-color: #ddd;
 }
 
-.controls{
-  margin-left: 28rem;
+
+
+/*TIcket*/
+
+.tickets {
+  background-color: #00ff9d;
+  height: 600px;
+  width: 500px;
+  margin-bottom: 2px;
+}
+
+.overview h1{
+  padding: 20px  0 20px 10px;
 }
