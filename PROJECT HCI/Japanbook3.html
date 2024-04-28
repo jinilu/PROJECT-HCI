@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour Website</title>
-    <link rel="stylesheet" href="Japanbook.css">
+    <link rel="stylesheet" href="Japanbook3.css">
 </head>
 <body>
     <header class="header">
@@ -25,65 +25,23 @@
 
     <main>
         <section class="booking-container">
-            <div class="step active">Booking Details</div>
-            <div class="step2">Your Details</div>
-            <div class="step3">Payment</div>
+            <div class="step2">Booking Details</div>
+            <div class="step3">Your Details</div>
+            <div class="step active">Payment</div>
         </section>
         <section class="container">
             <div class="visit">
                 <div class="title">
-                    <h1>When will you visit?</h1>
+                    <h1>Seect a payment method</h1>
                 </div>
-                <input type="date" id="dateInput" name="dateInput">
-                <div class="title">
-                    <h1>What time?</h1>
-                </div>
-                <input type="time" id="timeInput" name="timeInput">
-                <div class="title">
-                    <h1>Select Your Tickets</h1>
-                    <p>
-                        <li class="first">Free for kids under 6 and disabled visitors (74%+)</li>
-                        <li class="second">Pregnant women, families with strollers, and visitors on crutches can buy priority tickets at the venue</li>
-                    </p>
-                </div>
-                <div class="input-container">
-                    <div class="ticket-types">
-                        <div class="ticket">
-                            <h2>Adult (18+)
-                                <div class="quantity-control">
-                                    <button>-</button>
-                                    <input type="number" value="0">
-                                    <button>+</button>
-                                </div>
-                            </h2>
-                            <p>€34.00</p>
-                            
-                        </div>
-                        <div class="ticket">
-                            <h2>Child (6-17)</h2>
-                            
-                            <p>With valid ID</p>
-                            <p>Only in combination with: Adult (18+)
-                                <div class="quantity-control">
-                                    <button>-</button>
-                                    <input type="number" value="0">
-                                    <button>+</button>
-                                </div>
-                            </p>
-                            <p>€22.00</p>
-                        </div>
-                        <div class="ticket">
-                            <h2>Infant (0-5)</h2>
-                            <p>Only in combination with: Adult (18+)
-                                <div class="quantity-control">
-                                    <button>-</button>
-                                    <input type="number" value="0">
-                                    <button>+</button>
-                                </div>
-                            </p>
-                            
-                            <p>FREE</p>
-                        </div>
+                <div class="register">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" name="surname" placeholder="Enter your surname">
                     </div>
                 </div>
             </div>
@@ -116,7 +74,7 @@
                 <h1 class="total">
                     <span> Total Price<span class="pricetotal">€999.99 </span></span> 
                 </h1>
-                <button class="next" ><a href="Japanbook2.html">Go to the Next Step</button></a>
+                <button class="next" ><a href="ordercomplete.html">Go to the Next Step</button></a>
             </div>
             
         </section>
