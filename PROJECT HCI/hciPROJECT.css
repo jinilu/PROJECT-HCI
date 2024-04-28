@@ -79,10 +79,21 @@ select[name="Eng"] {
   cursor: pointer;
   border-radius: 20px;
 }
-/* ITO UNG MGA TITLE AHAHHAHA OTEEEEEEN*/
+/* MGA TITLE*/
 
 .title h1{
-  margin-left: 12rem;
+  margin-top: 30px;
+  margin-left: 17.5rem;
+  margin-bottom: 27px;
+  font-weight: 900;
+  font-size: 23px;
+}
+.titl3 h1{
+  margin-top: 90px;
+  margin-left: 18.5rem;
+  margin-bottom: 27px;
+  font-weight: 900;
+  font-size: 23px;
 }
 
 /*  PACKAGE TOUR CONTAINER 1*/
@@ -108,7 +119,6 @@ select[name="Eng"] {
   background-size: cover;
   border-radius: 15px 15px 15px 15px; 
 }
-
 .tour-1{
   background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
 }
@@ -133,7 +143,6 @@ select[name="Eng"] {
 .tour-8{
   background-image: url('https://www.touropia.com/gfx/b/2019/09/lapland-1.jpg')
 }
-
 .tour h2 {
   padding: 10px;
 }
@@ -147,22 +156,28 @@ select[name="Eng"] {
 .read-more {
   color: #00B3FF;
   cursor: pointer;
-  padding: .1px;
-  background-color: white;
+  margin-left: 10px;
+  background-color: #ffffff;
 }
+.read-moore {
+  color: #00B3FF;
+  cursor: pointer;  
+  margin-left: 1px;
+  background-color: #ffffff;
+}
+
 /* Services CONTAINER2 */
 
 .container2 { 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0px 50px 50px 50px;
+  padding: 0px 50px 80px 50px;
 }
 .services{
   width: 320px;
   margin: 10px;
   border-radius: 15px;
- 
 }
 
 .service-image{
@@ -252,10 +267,10 @@ select[name="Eng"] {
   border-radius: 50%;
 }
 .customer-1{
-  background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
+  background-image: url('https://i.pinimg.com/originals/cc/56/e9/cc56e94b4c5a40605f3f016cf448cce5.jpg ')
 }
 .customer-2{
-  background-image: url('https://www.indianholiday.com/pictures/tourgallery/712/switzerland-and-paris-tour-7434.jpg')
+  background-image: url('https://i.pinimg.com/originals/11/91/be/1191be158f7a6c36540f2f576abd3596.jpg')
 }
 
 .customer h1 {

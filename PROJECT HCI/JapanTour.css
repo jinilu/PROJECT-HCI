@@ -185,48 +185,50 @@ select[name="Eng"] {
 /* CUSTOMER SECTION CONTAINER3 */
 
 .happy h1{
-  padding: 50px 50px 20px 12rem;
-  margin-bottom: 15px;
+  padding: 50px 50px 20px 16rem;
   font-weight:900;
-  font-size: 23px;
+  font-size: 24px;
 }
 
 .container3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 80px 50px 50px 50px;
-  padding: 0px 0px 0px 18rem;
+  padding: 19px 50px 90px 50px;   
 }
 .customer {
-  border: 1px solid #ecf1f1;
-  height: 300px;
-  width: 400px;
+  border: 1px solid #e9ecec;
+  height:300px;
+  width: 500px;
   margin: 10px;
   border-radius: 20px;  
-  
+  align-items: center;
 }
 
 .customer-image{
-  margin-top: 3rem;
-  margin-left: 15rem;
+  margin-top: 20px;
+  margin-left: 22rem;
   height: 60px;
   width: 60px;
   background-size: cover;
   border-radius: 50%;
 }
-
 .customer-1{
-  background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
+  background-image: url('https://i.pinimg.com/originals/cc/56/e9/cc56e94b4c5a40605f3f016cf448cce5.jpg ')
 }
 .customer-2{
-  background-image: url('https://www.indianholiday.com/pictures/tourgallery/712/switzerland-and-paris-tour-7434.jpg')
+  background-image: url('https://i.pinimg.com/originals/11/91/be/1191be158f7a6c36540f2f576abd3596.jpg')
 }
 
 .customer h1 {
-  margin-left: 12rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 21rem;
 }
-.customer p {
+.customer h2 {
+  margin-top: 18px;
+  justify-content: center;
+  font-weight: lighter;
   padding: 10px;
 }
 .customer a{
@@ -244,3 +246,36 @@ select[name="Eng"] {
 .bold{
   font-weight: bold;
 }
+
+
+.tour img{
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+
+.tour-details {
+  display: flex;
+  justify-content: space-between;
+}
+.happy{
+  margin-top: 27px;
+  margin-bottom: 0.5px;
+}
+.happy img {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px; /* Adjust the margin as needed */
+  float: right; /* Float the images to the right */
+}
+
+.blue-background {
+  border-radius: 100%; 
+  background-color: #00B3FF;
+}
+.gray-background{
+  border-radius: 100%; 
+  background-color: #c9caca;
+}
+
+
