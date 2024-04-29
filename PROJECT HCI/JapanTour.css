@@ -241,9 +241,10 @@ select[name="Eng"] {
 /*Customer Section*/
 
 .containertwo {
-  background-color: #00B3FF;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  width: 1500px;
+  padding-top: 0px;
+  height: 400px;
 }
 
 .book-image{
@@ -254,6 +255,13 @@ select[name="Eng"] {
   }
   /* CUSTOMER PHOTOS*/
 
+  .tourimages{
+    height: 360px;  
+    width: 800px;
+    display: inline-block;
+    margin-left: 2rem;
+  }
+
   .tourone {
     width: 450px;
     height: 360px;
@@ -261,38 +269,40 @@ select[name="Eng"] {
     display: inline-block;
     float: left;
     border-radius: 10px;
-    margin-bottom: 200px;
   }
   
   .tourtwo {
-    height: 150px;
+    height: 170px;
     width: 250px;
     background-size: cover;
     display: inline-block;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-bottom: 20px;
+    
   }
-  
-  .tourthree{
-    height: 150px;
+  .tourthree {
+    height: 170px;
     width: 250px;
     background-size: cover;
     display: inline-block;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
   }
+
+
   .tourfour{
-    width: 250px;
+    width: 300px;
     height: 360px;
     border-radius: 10px;
     background-size: cover;
-    display: inline-block;
     float: right;
-    margin-right: 100px;
     margin-bottom: 200px;
-    
+    margin-right: 12rem;
   }
+
   .tourone{
     background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
   }
