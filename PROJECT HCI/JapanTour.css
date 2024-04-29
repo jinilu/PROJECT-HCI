@@ -61,6 +61,7 @@ select[name="Eng"] {
     border-radius: 5px;
     color: rgb(0, 0, 0);
 }
+
 .btn {
     font-size: 1.3rem;
     color: rgb(0, 0, 0);
@@ -107,6 +108,30 @@ select[name="Eng"] {
     padding: 0px 50px 0px 80px ;
     margin-right: 80px;
   }
+  #calendar {
+    width: 200px;
+    height: 200px;
+  }
+  input[type="date"],
+  input[type="time"] {
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  .time-title{
+    margin-top: 20px;
+    margin-bottom: 1px;
+  }
+  #timeInput {
+    padding: 8px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: 1px solid #ccc; /* Add border style */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    margin-right: 150px; /* Add margin */
+    margin-bottom: 0.5px;
+  }
+  
   .tour{
     width: 490px;
     height: 600px;
@@ -235,7 +260,7 @@ select[name="Eng"] {
   }
   
   .tourtwo {
-    height: 2px;
+    height: 200px;
     width: 158px;
     background-size: cover;
     border-radius: 10px 10px 10px 10px;
@@ -368,27 +393,4 @@ select[name="Eng"] {
 .gray-background{
   border-radius: 100%; 
   background-color: #c9caca;
-}
-#calendar {
-  width: 200px;
-  height: 200px;
-}
-input[type="date"],
-input[type="time"] {
-  padding: 9px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 200px;
-}
-.time-title{
-  margin-top: 20px;
-  margin-bottom: 1px;
-}
-#timeInput {
-  padding: 8px; /* Adjust padding as needed */
-  font-size: 16px; /* Adjust font size as needed */
-  border: 1px solid #ccc; /* Add border style */
-  border-radius: 4px; /* Add border radius for rounded corners */
-  margin-right: 150px; /* Add margin */
-  margin-bottom: 0.5px;
 }
