@@ -103,8 +103,12 @@ select[name="Eng"] {
   flex-wrap: wrap;
   padding: 0px 50px 50px 50px;
 }
-.highlightblue {
+.highlightblue{
   color: #00B3FF;
+}
+.prices {
+  font-weight: 900;
+  font-size: 15px;
 }
 .tour{
   width: 230px;
@@ -149,6 +153,7 @@ select[name="Eng"] {
 }
 .tour p {
   padding: 10px;
+  color: #00B3FF;
 }
 .tour a{
   color: rgb(6, 135, 255);

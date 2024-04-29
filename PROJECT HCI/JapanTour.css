@@ -200,9 +200,10 @@ select[name="Eng"] {
     font-size: 40px;
   }
   .tour1 h2{
-    font-size: 19px;
+    font-size: 23px;
     margin-bottom: 18px;
     margin-top: 12px;
+    font-weight:900;
   }
   .tour1 p{
     font-size: 13px;
