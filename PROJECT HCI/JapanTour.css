@@ -260,29 +260,37 @@ select[name="Eng"] {
     background-size: cover;
     display: inline-block;
     float: left;
+    border-radius: 10px;
+    margin-bottom: 200px;
   }
   
   .tourtwo {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 250px;
     background-size: cover;
     display: inline-block;
-  
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
   
   .tourthree{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 250px;
     background-size: cover;
     display: inline-block;
-    
+    border-radius: 10px;
+    margin-left: 20px;
   }
   .tourfour{
-    width: 450px;
+    width: 250px;
     height: 360px;
+    border-radius: 10px;
     background-size: cover;
     display: inline-block;
     float: right;
+    margin-right: 100px;
+    margin-bottom: 200px;
     
   }
   .tourone{
