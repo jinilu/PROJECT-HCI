@@ -131,13 +131,11 @@ select[name="Eng"] {
     margin-right: 150px; /* Add margin */
     margin-bottom: 0.5px;
   }
-  
   .tour{
     width: 490px;
     height: 600px;
     border-radius: 15px;
   }
-  
   .tour-1{
     width: 500px;
     height: 430px;
@@ -146,7 +144,6 @@ select[name="Eng"] {
     border-radius: 10px 10px 10px 10px;
     margin-left: 30px;
   }
-
   .tour-2{
     height: 105px;
     width: 158px;
@@ -154,7 +151,6 @@ select[name="Eng"] {
     border-radius: 10px 10px 10px 10px;
     display: inline-block;
     margin-right: 4.5px;
- 
   }
   .tour-3{
     height: 105px;
@@ -162,7 +158,6 @@ select[name="Eng"] {
     background-size: cover;
     border-radius: 10px 10px 10px 10px;
     display: inline-block;
-    
   }
   .tour-4{
     height: 105px;
@@ -170,7 +165,6 @@ select[name="Eng"] {
     background-size: cover;
     border-radius: 10px 10px 10px 10px;
     display: inline-block;
-    
   }
   .threecontainers{
     margin-left: 30px;
