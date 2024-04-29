@@ -65,7 +65,7 @@ select[name="Eng"] {
     font-size: 1.3rem;
     color: rgb(0, 0, 0);
 }
-.signup-button {
+.booknow-button {
     background-color: #00B3FF; 
     border: none;
     color: rgb(0, 0, 0);
@@ -74,9 +74,22 @@ select[name="Eng"] {
     text-decoration: none;
     display: inline-block;
     font-size: 1.3rem;
-    margin: 4px 2px;
+    margin: 30px 2px;
     cursor: pointer;
     border-radius: 20px;
+}
+.signup-button {
+  background-color: #00B3FF;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
 }
 /* ANDITO LAHAT*/
 .back-button {
