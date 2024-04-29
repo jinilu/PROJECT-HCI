@@ -212,22 +212,34 @@ input[type="text"] {
 /* Payment*/
 
 .payment-method {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .payment-method label {
-  cursor: pointer;
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.payment-method p{
+  display: inline-block;
+  margin-left: 2px
+}
+
+.payment-method img {
+  max-width: 20px;
+  vertical-align: middle;
   margin-left: 10px;
 }
 
 .payment-method img {
-  max-width: 50px;
+  width: 20px;
   vertical-align: middle;
   margin-left: 10px;
 }
 
 .card-details input {
-  width: 100%;
+  width: 45%;
   margin-top: 5px;
   padding: 10px;
   border: 1px solid #ccc;
@@ -235,21 +247,29 @@ input[type="text"] {
   box-sizing: border-box;
 }
 
-button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 10px;
+.card-what p {
+  margin-top: 20px;
+  margin-right: 170px;
+  color: #00B3FF;
 }
 
-button:hover {
-  background-color: #0056b3;
+.card-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.visa {
+  margin-left: 23rem;
+  display: inline-block;
+  
+}
+
+.credits img{
+  max-width: 100px;
+  margin-left: 10px;
+  display: inline-block;
 }
 
 /*TIcket*/
