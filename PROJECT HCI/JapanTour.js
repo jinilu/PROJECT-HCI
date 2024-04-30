@@ -27,3 +27,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var numberInput = document.getElementById('myNumber');
     // Add functionality to change the number based on your needs (e.g., buttons, event listeners)
   });
+
+
