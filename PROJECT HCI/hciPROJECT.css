@@ -12,6 +12,7 @@ html{
   font-size: 62.5%;
   overflow-x: hidden;
 }
+
 body{
  
   padding: 0;
@@ -36,6 +37,7 @@ section{
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0.253);
 }
+
 .header img {
   width: 60px;
   height: auto;
@@ -114,15 +116,21 @@ select[name="Eng"] {
   width: 230px;
   margin: 10px;
   border-radius: 15px;
- 
+  transition: 1s;
 }
+
 .tour-image{
   height: 280px;
   margin-bottom: 10px;
   align-items: center;
   background-size: cover;
   border-radius: 15px 15px 15px 15px; 
+  transition: 1s;
 }
+.tour-image:hover{
+  transform: scale(1.5);
+}
+
 
 .tour-1{
   background-image: url('https://www.traveloffpath.com/wp-content/uploads/2024/02/The-Golden-Pavilion.-Kinkakuji-Temple-in-Kyoto-Japan.jpg')
@@ -191,6 +199,10 @@ select[name="Eng"] {
   margin-bottom: 10px;
   background-size: cover;
   border-radius: 15px 15px 15px 15px;
+  transition: 1s;
+}
+.service-image:hover{
+  transform: scale(1.5);
 }
 
 .service-1{
@@ -327,4 +339,16 @@ select[name="Eng"] {
   background-color: #c9caca;
 }
 
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation ease 2s forwards;
+}
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
