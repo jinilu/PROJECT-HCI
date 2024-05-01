@@ -16,11 +16,14 @@
             <a href="#Tour Packages">Tour Packages</a>
             <a href="#Contact Us">Contact Us</a>
         </nav>
-        <select name="Eng" id="Languange">
-            <option value="Eng">Eng</option>
-          </select>
-        <a href="LINK NI DIRI" class="btn">Log In</a>
-        <button class="signup-button">Sign Up</button>
+        <div class="languange">
+            <select name="Eng" id="Languange">
+                <option value="Eng">Eng</option>
+            </select>
+            <a href="LINK NI DIRI" class="btn">Log In</a>
+            <button class="signup-button">Sign Up</button>
+        </div>
+      
     </header>
 
     <main>
@@ -232,5 +235,15 @@
     <footer>
         <!-- Footer content -->
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            const main = document.querySelector('main');
+            const header = document.querySelector('header');
+            if (main && header) {
+                main.classList.add('fade-in');
+                header.classList.add('fade-in');
+            }
+        });
+    </script>
 </body>
 </html>
