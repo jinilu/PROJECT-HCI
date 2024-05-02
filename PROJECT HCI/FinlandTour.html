@@ -23,6 +23,7 @@
             <a href="LINK NI DIRI" class="btn">Log In</a>
             <button class="signup-button">Sign Up</button>
         </div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
     </header>
     <main>  
         <section class="home">
@@ -32,12 +33,14 @@
         </div>
         <!-- TOUR PACKAGES -->
 
-        <section class="container">
+        <section class="container fade-in">
             <div class="tour">
                 <div class="tour-image tour-1"></div>
+                <div class="threecontainers">
                 <div class="tour-image tour-2"></div>
                 <div class="tour-image tour-3"></div>
                 <div class="tour-image tour-4"></div>
+            </div>
             </div>
             <div class="tour1">
                 <h1>Japan Tour</h1>
@@ -47,16 +50,22 @@
                 <P>Adventures - 10 Days, you have a 10 days tour package taking you through</P>
                 <p>Tokyo, Japan and 4 other destinations in Japan. Japan One Life Adventures - 10</p>
                 <p>Days includes accommodation, an expert guide, meals, transport and more.</p>
-                <button class="signup-button"><a href="Japanbook.html">Book Now</a></button>
+                <div id='calendar'></div>
+                <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+                <script src="JapanTour.js"></script>
+                <div class="time-title"><h3>Time</h3></div>
+                <input type="time" id="timeInput" name="timeInput" placeholder="Select a time">
+             
+                <button class="booknow-button"><a href="Japanbook.html">Book Now</a></button>
             </div>
             </div>
         </section>
         
         <!-- Details -->
-        <div class="title">
+        <div class="title fade-in">
             <h1>Details</h1>
         </div>
-        <section class="container2">
+        <section class="container2 fade-in">
             <div class="details">
             <div class="detailsparagraph">
             <p>Konnichiwa everyone! Japan offers a mind-blowing mix of ancient tradition, neon-lit </p>
@@ -67,6 +76,7 @@
             <p>awaits us in Japan. Get ready for an unforgettable adventure filled with cultural</p>
             <P>encounters, historical wonders, and delicious food!</P>
             </div>
+            <div class="iconss">
             <p><img src="https://i.ibb.co/zRkD85B/002-group.png"> <span class="bold">Number of group: </span> 10-15</p>
             <p><img src="https://i.ibb.co/sPvYdGj/003-hour-glass.png"> <span class="bold">Duration: </span> 5 hours and 45 minutes</p>
             <p><img src="https://i.ibb.co/WfY6ztn/001-location.png"> <span class="bold">Departuring and arriving areas: </span> Haneda Airport</p>
@@ -74,27 +84,34 @@
             <p><img src="https://i.ibb.co/XCTGVmd/003-language.png"> <span class="bold">Language: </span> English, Japanese</p>
             <p><img src="https://i.ibb.co/Vq72sHH/001-ticket.png"> <span class="bold">Entry Fees: </span> 60.00$(tax-free)</p>
             <p><img src="https://i.ibb.co/7XPzzGD/002-bus.png"> <span class="bold">EntryTransportation: </span> Bus</p>
+             </div>
             </div>
             
         </section>
 
-        <div class="title">
+        <div class="title fade-in">
             <h1>Customer Photos</h1>
         </div>
 
-        <section class="booking-section">
-            <div class="book-image book-1"></div>
-        </section>>
-
-       <!-- HAPPY CUSTOMER -->
-        <div class="happy">
+        <section class="containertwo fade-in">
+            <div class="tourimages">
+                <div class="tour-image tourone"></div>      
+                <div class="tour-image tourtwo"></div>
+                <div class="tour-image tourthree"></div>
+            </div>
+            <div class="tour-image tourfour"></div>
+        </section>
+        <!-- HAPPY CUSTOMER -->
+       <div class="happy fade-in">
         <h1>Happy Customer Says
             <img class="blue-background" src="https://i.ibb.co/zhPCxSN/right-arrow-angle.png">
             <img class="gray-background" src="https://i.ibb.co/nfgqnsq/left-arrow.png">
         </h1>
         </div>
+
+       
     
-        <section class="container3">
+        <section class="container3 fade-in">
             <div class="customer">
                 <div class="customer-image customer-1"></div>
                 <h1>Gu Wa Po</h1>
@@ -111,5 +128,7 @@
     <footer>
         <!-- Footer content -->
     </footer>
+    
+
 </body>
 </html>

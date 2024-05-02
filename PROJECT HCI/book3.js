@@ -373,18 +373,25 @@ function sendEmailWithDetails() {
     
     // Use Email.send() to send the email with the composed bodyMessage
     Email.send({
-        SecureToken : "30441a16-942e-46f7-9655-66add9a75c5e",
-        Host : "smtp.elasticemail.com",
-        Username : "tourpackage.wanderlust@gmail.com",
-        Password : "4A9A7C1809558F4A01C60764CAEF6A023E80",
-        To : 'tourpackage.wanderlust@gmail.com',
-        From : "tourpackage.wanderlust@gmail.com",
-        Subject : "PAYMENT DETAILS: TourPackage of WanderLust",
-        Body : bodyMessage
+        SecureToken: "30441a16-942e-46f7-9655-66add9a75c5e",
+        Host: "smtp.elasticemail.com",
+        Username: "tourpackage.wanderlust@gmail.com",
+        Password: "4A9A7C1809558F4A01C60764CAEF6A023E80",
+        To: 'tourpackage.wanderlust@gmail.com',
+        From: "tourpackage.wanderlust@gmail.com",
+        Subject: "BOOKING DETAILS: TourPackage of WanderLust",
+        Body: bodyMessage
     }).then(
         message => {
-            alert("Details have been saved. Click OK to continue.");
-            window.location.href = "ordercomplete.html"; // Navigate to order complete page after sending email
+            Swal.fire({
+                title: "Email Sent!",
+                text: "Your data has been sent.",
+                icon: "success",
+                confirmButtonColor: "#3085d6"
+            }).then(() => {
+                // After showing the success message, navigate to Japanbook2.html
+                window.location.href = "ordercomplete.html";
+            });
         }
     );
 }
@@ -392,9 +399,19 @@ function sendEmailWithDetails() {
 // Event listener to capture details when the "Next" button is clicked
 document.querySelector('.next').addEventListener("click", () => {
     if (window.location.pathname.includes("Japanbook3.html")) {
-        // Capture payment details from Japanbook3.html
-        capturePaymentDetails();
-        // Send email with captured details
-        sendEmailWithDetails();
+        Swal.fire({
+            title: "Do you want to proceed?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, proceed!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // If user confirms, send email with details
+                sendEmailWithDetails();
+            }
+        });
     }
 });

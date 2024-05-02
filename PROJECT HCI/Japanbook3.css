@@ -370,3 +370,17 @@ input[type="text"] {
 }
 
 
+.slide-right {
+  animation: slideRightAnimation 1s ease forwards;
+}
+
+@keyframes slideRightAnimation {
+  from {
+      opacity: 0;
+      transform: translateX(100%);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
