@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Website</title>
+    <link rel="stylesheet" href="Singaporebook.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Header content, including logo and navigation links -->
+        <img src="https://scontent.fdvo5-1.fna.fbcdn.net/v/t1.15752-9/432869053_1125885701869261_5440541884617776561_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFgw1UogHtnyqAEhNl4AUW7ZKMSXebEkctkoxJd5sSRywQWrxK3YeNoErCPrFm5TqRPgbGk8kev75v-4JEyOLxj&_nc_ohc=Zz1vNjD3RFQAb4RKO6I&_nc_ht=scontent.fdvo5-1.fna&oh=03_AdX09BQEZbCFgpaAaTa4AL5M_vscP1Nh3J2lP09x0AQrdw&oe=663CCFBA" alt="logo">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about Us">About</a>
+            <a href="#Tour Packages">Tour Packages</a>
+            <a href="#Contact Us">Contact Us</a>
+        </nav>
+        <div class="languange">
+            <select name="Eng" id="Languange">
+                <option value="Eng">Eng</option>
+            </select>
+            <a href="LINK NI DIRI" class="btn">Log In</a>
+            <button class="signup-button">Sign Up</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="booking-container">
+            <div class="step active">Booking Details</div>
+            <div class="step2">Your Details</div>
+            <div class="step3">Payment</div>
+        </section>
+        <section class="container slide-right">
+            <div class="visit">
+                <div class="title">
+                    <h1>When will you visit?</h1>
+                </div>
+                <input type="date" id="dateInput" name="dateInput">
+                <div class="title">
+                    <h1>What time?</h1>
+                </div>
+                <input type="time" id="timeInput" name="timeInput">
+                <div class="title">
+                    <h1>Select Your Tickets</h1>
+                    <p>
+                        <li class="first">Free for kids under 6 and disabled visitors (74%+)</li>
+                        <li class="second">Pregnant women, families with strollers, and visitors on crutches can buy priority tickets at the venue</li>
+                    </p>
+                </div>
+                <div class="input-container">
+                    <div class="ticket-types">
+                        <div class="ticket">
+                            <p>Adult (18+)
+                                <div class="quantity-control">
+                                    <button class="decrease">-</button>
+                                    <input type="number" value="0" class="quantity-adult">
+                                    <button class="increase">+</button>
+                                </div>
+                            </p>
+                            <p><span class="blue">€34.00</span></p>
+                            
+                        </div>
+                        <div class="ticket">
+                            <p>Child (6-17)</p>
+                            
+                            <p>With valid ID</p>
+                            <p>Only in combination with: Adult (18+)
+                                <div class="quantity-control">
+                                    <button class="decrease">-</button>
+                                    <input type="number" value="0" class="quantity-child">
+                                    <button class="increase">+</button>
+                                </div>
+                            </p>
+                            <p><span class="blue">€22.00</span></p>
+                        </div>
+                        <div class="ticket">
+                            <p>Infant (0-5)</p>
+                            <p>Only in combination with: Adult (18+)
+                                <div class="quantity-control">
+                                    <button class="decrease">-</button>
+                                    <input type="number" value="0" class="quantity-infant">
+                                    <button class="increase">+</button>
+                                </div>
+                            </p>
+                            
+                            <p><Span class="blue">FREE</Span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tickets">
+                <div class="content">
+                    <div class="overview">
+                        <h1>Your Tickets Overview</h1>  
+                    </div>
+                    <div class="ticketoverview">
+                        <div class="ticket-image ticket-1"></div>
+                        <div class="information">
+                        <h2>Tour In Barcelona, Spain</h2>
+                        <p>MON, 23 AUG 2024</p>
+                        <p>4:00 AM ETA</p>
+                    </div>
+                </div>
+                <div class="ticket-details">
+                    <p class="adult">
+                        <span> Adult (18+) (€32.00)<span class="priceadult">€99.99 </span></span> 
+                    </p>
+                    <p class="child"></p>
+                        <span> 1 Child (6-17)<span class="pricechild">€99.99 </span></span> 
+                    </p>
+                    <p class="infant"></p>
+                        <span> 1 Infant (0-5)<span class="priceinfant">€99.99 </span></span> 
+                    </p>
+                    
+                </div>
+                <h1 class="total">
+                    <span> Total Price<span class="pricetotal">€999.99 </span></span> 
+                </h1>
+                <button class="next" >Go to the Next Step</button></a>
+            </div>
+            
+        </section>
+    </main>
+    <script>
+        // JavaScript to handle quantity control
+        document.querySelectorAll('.quantity-control').forEach(control => {
+            const decreaseBtn = control.querySelector('.decrease');
+            const increaseBtn = control.querySelector('.increase');
+            const quantityInput = control.querySelector('input[type="number"]');
+
+            decreaseBtn.addEventListener('click', () => {
+                let currentValue = parseInt(quantityInput.value);
+                if (currentValue > 0) {
+                    quantityInput.value = currentValue - 1;
+                }
+            });
+
+            increaseBtn.addEventListener('click', () => {
+                let currentValue = parseInt(quantityInput.value);
+                quantityInput.value = currentValue + 1;
+            });
+        });
+
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="Singaporebook.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>

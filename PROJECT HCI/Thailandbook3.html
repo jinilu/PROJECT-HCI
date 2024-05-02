@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Website</title>
+    <link rel="stylesheet" href="Thailandbook3.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Header content, including logo and navigation links -->
+        <img src="https://scontent.fdvo5-1.fna.fbcdn.net/v/t1.15752-9/432869053_1125885701869261_5440541884617776561_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFgw1UogHtnyqAEhNl4AUW7ZKMSXebEkctkoxJd5sSRywQWrxK3YeNoErCPrFm5TqRPgbGk8kev75v-4JEyOLxj&_nc_ohc=Zz1vNjD3RFQAb4RKO6I&_nc_ht=scontent.fdvo5-1.fna&oh=03_AdX09BQEZbCFgpaAaTa4AL5M_vscP1Nh3J2lP09x0AQrdw&oe=663CCFBA" alt="logo">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about Us">About</a>
+            <a href="#Tour Packages">Tour Packages</a>
+            <a href="#Contact Us">Contact Us</a>
+        </nav>
+        <div class="languange">
+            <select name="Eng" id="Languange">
+                <option value="Eng">Eng</option>
+            </select>
+            <a href="LINK NI DIRI" class="btn">Log In</a>
+            <button class="signup-button">Sign Up</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="booking-container ">
+            <div class="step2">Booking Details</div>
+            <div class="step3">Your Details</div>
+            <div class="step active">Payment</div>
+        </section>
+        <section class="container slide-right">
+            <div class="visit">
+                <div class="title">
+                    <h1>Select a Payment Method</h1>
+                </div>
+                <form action="#">
+                    <div class="payment-method">
+                        <input type="radio" id="paypal" name="payment" checked>
+                        <label for="paypal"> PayPal</label>
+                        <p> You will be redirected to the Paypal website after submitting your order<img src="https://th.bing.com/th/id/R.fca76a9d27c54d07ba8c567cb3e2fe1d?rik=vJ%2fFvc7xLxNcEg&riu=http%3a%2f%2ftous-logos.com%2fwp-content%2fuploads%2f2017%2f09%2fPaypal-logo.jpg&ehk=Jf3VB7bWFm1sjKT%2bWcnvnB0PvjQJsJRK%2bAhPWwhR0NE%3d&risl=&pid=ImgRaw&r=0" alt="PayPal Logo"></p>  
+                        </div>
+                    <div class="payment-method">
+                        <input type="radio" id="credit-card" name="payment">
+                        <label for="credit-card">Pay with Credit Card</label>
+                        <span class="credits">
+                            <div class="visa">
+                            <img src="https://th.bing.com/th/id/OIP.xVREsbEnxpFwYsgl4hNO7QHaDA?rs=1&pid=ImgDetMain">
+                            </div>
+                            <img src="https://th.bing.com/th/id/OIP.ruwJCwSFzckVyunkFHmK9AAAAA?rs=1&pid=ImgDetMain">
+                            <img src="https://th.bing.com/th/id/OIP.R9U_JABl7Ic60T5SoZpIKwHaHa?rs=1&pid=ImgDetMain">
+                            <img src="https://s3.amazonaws.com/freebiesupply/large/2x/mastercard-logo-png-transparent.png">
+                                
+                        </span>
+                        <div class="card-details">
+                            <input type="text" id="card-number" name="card-number" placeholder="Card number">
+                            <input type="text" id="expiration-date" name="expiration-date" placeholder="Expiration Date">
+                            <input type="text" id="security-code" name="security-code" placeholder="Card Security Code">
+                            <div class="card-what">
+                            <p>What is this?</p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tickets">
+                <div class="content">
+                    <div class="overview">
+                        <h1>Your Ticket Overview</h1>  
+                    </div>
+                    <div class="ticketoverview">
+                        <div class="ticket-image ticket-1"></div>
+                        <div class="information">
+                        <h2>Tour In Barcelona, Spain</h2>
+                        <p>MON, 23 AUG 2024</p>
+                        <p>4:00 AM ETA</p>
+                    </div>
+                </div>
+                <div class="ticket-details">
+                    <p class="adult">
+                        <span> Adult (18+) (€32.00)<span class="priceadult">€99.99 </span></span> 
+                    </p>
+                    <p class="child"></p>
+                        <span> 1 Child (6-17)<span class="pricechild">€99.99 </span></span> 
+                    </p>
+                    <p class="infant"></p>
+                        <span> 1 Infant (0-5)<span class="priceinfant">€99.99 </span></span> 
+                    </p>
+                    
+                </div>
+                <h1 class="total">
+                    <span> Total Price<span class="pricetotal">€999.99 </span></span> 
+                </h1>
+                <button class="next" >Go to the Next Step</button></a>
+            </div>
+            
+        </section>
+    </main>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="Thailandbook3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>
